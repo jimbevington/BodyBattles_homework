@@ -4,8 +4,14 @@
     <list default="true" id="b084dade-ccbf-4bd3-a064-aa9a118ca803" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Combatant.class" afterPath="$PROJECT_DIR$/out/production/classes/Combatant.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Germ.class" afterPath="$PROJECT_DIR$/out/production/classes/Germ.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Nanobot.class" afterPath="$PROJECT_DIR$/out/production/classes/Nanobot.class" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/GermTest.class" afterPath="$PROJECT_DIR$/out/test/classes/GermTest.class" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/NanobotTest.class" afterPath="$PROJECT_DIR$/out/test/classes/NanobotTest.class" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Combatant.java" afterPath="$PROJECT_DIR$/src/main/java/Combatant.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Germ.java" afterPath="$PROJECT_DIR$/src/main/java/Germ.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Nanobot.java" afterPath="$PROJECT_DIR$/src/main/java/Nanobot.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GermTest.java" afterPath="$PROJECT_DIR$/src/test/java/GermTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/NanobotTest.java" afterPath="$PROJECT_DIR$/src/test/java/NanobotTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,15 +41,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NanobotTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NanobotTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/NanobotTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+            <state relative-caret-position="379">
+              <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,13 +60,15 @@
       <file leaf-file-name="Combatant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Combatant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="375">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,11 +77,11 @@
       <file leaf-file-name="Nanobot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Nanobot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
               <folding>
-                <element signature="e#87#88#0" expanded="true" />
-                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#104#105#0" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,21 +90,21 @@
       <file leaf-file-name="Germ.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Germ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state relative-caret-position="170">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
-                <element signature="e#82#83#0" expanded="true" />
-                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GermTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GermTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/GermTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -409,11 +419,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ICombat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Nanobot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Germ.java" />
-        <option value="$PROJECT_DIR$/src/test/java/GermTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/NanobotTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Combatant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Nanobot.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NanobotTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GermTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Germ.java" />
       </list>
     </option>
   </component>
@@ -502,7 +512,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in BodyBattles_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -533,6 +543,26 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="NanobotTest.canGetStrength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="BodyBattles_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NanobotTest" />
+      <option name="METHOD_NAME" value="canGetStrength" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -604,9 +634,14 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in BodyBattles_test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.NanobotTest.canGetStrength" />
+    </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="JUnit.All in BodyBattles_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.NanobotTest.canGetStrength" />
       </list>
     </recent_temporary>
   </component>
@@ -627,23 +662,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_BodyBattles_test - 2018.03.06 at 18h 53m 23s.xml">
-      <configuration name="All in BodyBattles_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BodyBattles_test - 2018.03.06 at 18h 57m 12s.xml">
-      <configuration name="All in BodyBattles_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BodyBattles_test - 2018.03.06 at 19h 00m 42s.xml">
-      <configuration name="All in BodyBattles_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BodyBattles_test - 2018.03.06 at 19h 17m 33s.xml">
-      <configuration name="All in BodyBattles_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_BodyBattles_test - 2018.03.06 at 19h 19m 01s.xml">
       <configuration name="All in BodyBattles_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_BodyBattles_test - 2018.03.06 at 19h 22m 19s.xml">
       <configuration name="All in BodyBattles_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BodyBattles_test - 2018.03.06 at 19h 24m 42s.xml">
+      <configuration name="All in BodyBattles_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BodyBattles_test - 2018.03.06 at 19h 30m 07s.xml">
+      <configuration name="All in BodyBattles_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BodyBattles_test - 2018.03.06 at 19h 32m 22s.xml">
+      <configuration name="All in BodyBattles_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BodyBattles_test - 2018.03.06 at 19h 32m 47s.xml">
+      <configuration name="All in BodyBattles_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BodyBattles_test - 2018.03.06 at 19h 32m 57s.xml">
+      <configuration name="All in BodyBattles_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NanobotTest_canGetStrength - 2018.03.06 at 19h 30m 55s.xml">
+      <configuration name="NanobotTest.canGetStrength" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NanobotTest_canGetStrength - 2018.03.06 at 19h 31m 03s.xml">
+      <configuration name="NanobotTest.canGetStrength" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NanobotTest_canGetStrength - 2018.03.06 at 19h 32m 17s.xml">
+      <configuration name="NanobotTest.canGetStrength" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -658,9 +705,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -704,59 +751,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Nanobot.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/NanobotTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#87#88#0" expanded="true" />
-            <element signature="e#124#125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Germ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding>
-            <element signature="e#82#83#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GermTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="379">
+          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Combatant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="375">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NanobotTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Nanobot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        <state relative-caret-position="51">
+          <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Germ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GermTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
           </folding>
         </state>
       </provider>

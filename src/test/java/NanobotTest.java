@@ -10,13 +10,13 @@ public class NanobotTest {
 
     @Before
     public void setUp() throws Exception {
-        bot = new Nanobot("Starship Trooper", 4);
-        germ = new Germ("Damasio", 10);
+        bot = new Nanobot("Starship Trooper", 15, 4);
+        germ = new Germ("Damasio", 10, 6);
     }
 
     @Test
     public void canGetStrength() {
-        assertEquals(4, bot.getStrength());
+        assertEquals(15, bot.getStrength());
     }
 
     @Test
@@ -25,14 +25,18 @@ public class NanobotTest {
         assertEquals(10, bot.getStrength());
     }
 
-//    test can attack germ
+    @Test
+    public void canGetAttackPower() {
+        assertEquals(4, bot.getAttackPower());
+    }
+
+    //    test can attack germ
 
     @Test
     public void canAttackGerm() {
         bot.attack(germ);
         assertEquals(6, germ.getStrength());
     }
-
 
     //    experiment with can deliver medicine
 }
