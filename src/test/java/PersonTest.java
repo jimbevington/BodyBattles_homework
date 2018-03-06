@@ -47,5 +47,6 @@ public class PersonTest {
         person.catchDisease(germ);
         assertEquals(1, person.bodyCount());
         assert(person.getBody().get(0) instanceof Germ);
+        assertEquals(55, person.getHealth());
     }
 }

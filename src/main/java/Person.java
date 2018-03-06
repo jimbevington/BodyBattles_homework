@@ -11,6 +11,7 @@ public class Person {
         this.name = name;
         this.health = health;
         this.body = new ArrayList<>();
+//        could add immunities
     }
 
     public int getHealth() {
@@ -22,7 +23,10 @@ public class Person {
     }
 
     public void catchDisease(Germ germ) {
+//        add a germ to the body
         this.body.add(germ);
+//        dock health by the germs strength
+        this.health -= germ.getStrength();
     }
 
     public ArrayList<Combatant> getBody() {
