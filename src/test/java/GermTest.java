@@ -20,16 +20,11 @@ public class GermTest {
         assertEquals(12, bot.getStrength());
     }
 
-    //    can multiply by a factor, which will increase deadliness
-
     @Test
     public void canMultiply() {
         germ.multiply(3);
         assertEquals(18, germ.getStrength());
     }
-
-
-//    can attack a nanobot
 
 //    experiment with hurting human's health
 

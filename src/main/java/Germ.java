@@ -4,7 +4,6 @@ public class Germ extends Combatant {
         super(name, strength, attackPower);
     }
 
-
     public void multiply(int factor) {
         int scaledStrength = getStrength() * factor;
         setStrength(scaledStrength);
