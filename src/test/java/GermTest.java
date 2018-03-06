@@ -1,4 +1,7 @@
 import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class GermTest {
 
@@ -9,5 +12,8 @@ public class GermTest {
         germ = new Germ("Gary", 12);
     }
 
-
+    @Test
+    public void canGetDeadliness() {
+        assertEquals(12, germ.getDeadliness());
+    }
 }
