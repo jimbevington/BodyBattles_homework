@@ -12,11 +12,7 @@ public class PersonTest {
 //              mutate, increasing Deadliness
 //
 
-//    when drinks some Nanobots
-//    adds nanobot to the body
 
-
-//    nanobot can attack disease
 //                disperse medicine
 
     private Person person;
@@ -53,5 +49,11 @@ public class PersonTest {
         person.eatNanobot(bot);
         assertEquals(1, person.bodyCount());
         assert(person.getBody().get(0) instanceof Nanobot);
+    }
+
+    @Test
+    public void canIncreaseHealth() {
+        person.increaseHealth(50);
+        assertEquals(150, person.getHealth());
     }
 }

@@ -7,11 +7,13 @@ public class NanobotTest {
 
     private Nanobot bot;
     private Germ germ;
+    private Person person;
 
     @Before
     public void setUp() throws Exception {
         bot = new Nanobot("Starship Trooper", 15, 4);
         germ = new Germ("Damasio", 10, 6);
+        person = new Person("Geralidine", 60);
     }
 
     @Test
@@ -39,4 +41,10 @@ public class NanobotTest {
     }
 
     //    experiment with can deliver medicine
+
+//    @Test
+//    public void canDisperseMedicine() {
+//        bot.disperseMedicine(person);
+//        assertEquals(75, person.getHealth());
+//    }
 }

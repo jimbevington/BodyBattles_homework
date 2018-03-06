@@ -36,4 +36,8 @@ public class Person {
     public void eatNanobot(Nanobot bot) {
         this.body.add(bot);
     }
+
+    public void increaseHealth(int amount) {
+        this.health += amount;
+    }
 }

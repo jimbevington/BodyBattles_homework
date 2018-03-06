@@ -4,4 +4,7 @@ public class Nanobot extends Combatant{
         super(name, strength, attackPower);
     }
 
+    public void disperseMedicine(Person person) {
+        person.increaseHealth(getStrength());
+    }
 }
