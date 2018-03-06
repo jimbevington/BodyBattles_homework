@@ -19,8 +19,20 @@ public class NanobotTest {
         assertEquals(4, bot.getStrength());
     }
 
+    @Test
+    public void canSetStrength(){
+        bot.setStrength(10);
+        assertEquals(10, bot.getStrength());
+    }
+
+//    test can attack germ
+
+    @Test
+    public void canAttackGerm() {
+        bot.attack(germ);
+        assertEquals(6, germ.getStrength());
+    }
 
 
-
-//    experiment with can deliver medicine
+    //    experiment with can deliver medicine
 }
