@@ -42,9 +42,9 @@ public class NanobotTest {
 
     //    experiment with can deliver medicine
 
-//    @Test
-//    public void canDisperseMedicine() {
-//        bot.disperseMedicine(person);
-//        assertEquals(75, person.getHealth());
-//    }
+    @Test
+    public void canDisperseMedicine() {
+        bot.disperseMedicine(person);
+        assertEquals(75, person.getHealth());
+    }
 }
