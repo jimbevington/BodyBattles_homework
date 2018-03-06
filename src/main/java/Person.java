@@ -32,4 +32,8 @@ public class Person {
     public ArrayList<Combatant> getBody() {
         return body;
     }
+
+    public void eatNanobot(Nanobot bot) {
+        this.body.add(bot);
+    }
 }

@@ -8,13 +8,9 @@ public class PersonTest {
 //    Person
 //        has name, health and body with Combatants in it
 
-//    when catches a Disease
-//    adds Germ to body
-//    Germs deadliness docks Health
-
-//    germs can spawn, docking Health more
+//    germs can
 //              mutate, increasing Deadliness
-//              attack nanobots
+//
 
 //    when drinks some Nanobots
 //    adds nanobot to the body
@@ -25,11 +21,13 @@ public class PersonTest {
 
     private Person person;
     private Germ germ;
+    private Nanobot bot;
 
     @Before
     public void setUp() throws Exception {
         person = new Person("Iain", 100);
         germ = new Germ("Basilskin", 45, 3);
+        bot = new Nanobot("Tesla Twassick", 50, 10);
     }
 
     @Test
@@ -48,5 +46,12 @@ public class PersonTest {
         assertEquals(1, person.bodyCount());
         assert(person.getBody().get(0) instanceof Germ);
         assertEquals(55, person.getHealth());
+    }
+
+    @Test
+    public void canEatNanobot(){
+        person.eatNanobot(bot);
+        assertEquals(1, person.bodyCount());
+        assert(person.getBody().get(0) instanceof Nanobot);
     }
 }
