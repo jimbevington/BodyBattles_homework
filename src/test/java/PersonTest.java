@@ -34,4 +34,9 @@ public class PersonTest {
     public void canCheckHealth() {
         assertEquals(100, person.getHealth());
     }
+
+    @Test
+    public void hasEmptyBody(){
+        assertEquals(0, person.bodyCount());
+    }
 }

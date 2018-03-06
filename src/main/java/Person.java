@@ -16,4 +16,8 @@ public class Person {
     public int getHealth() {
         return health;
     }
+
+    public int bodyCount() {
+        return this.body.size();
+    }
 }
