@@ -5,15 +5,9 @@ import static org.junit.Assert.assertEquals;
 
 public class PersonTest {
 
-//    Person
-//        has name, health and body with Combatants in it
-
 //    germs can
 //              mutate, increasing Deadliness
-//
 
-
-//                disperse medicine
 
     private Person person;
     private Germ germ;
@@ -23,7 +17,7 @@ public class PersonTest {
     public void setUp() throws Exception {
         person = new Person("Iain", 100);
         germ = new Germ("Basilskin", 45, 3);
-        bot = new Nanobot("Tesla Twassick", 50, 10);
+        bot = new Nanobot(50, 10);
     }
 
     @Test

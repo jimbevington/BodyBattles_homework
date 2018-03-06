@@ -11,7 +11,12 @@ public class GermTest {
     @Before
     public void setUp() throws Exception {
         germ = new Germ("Gary", 6, 3);
-        bot = new Nanobot("Clor", 15, 7);
+        bot = new Nanobot(15, 7);
+    }
+
+    @Test
+    public void canGetName() {
+        assertEquals("Gary", germ.getName());
     }
 
     @Test
@@ -25,7 +30,5 @@ public class GermTest {
         germ.multiply(3);
         assertEquals(18, germ.getStrength());
     }
-
-//    experiment with hurting human's health
 
 }

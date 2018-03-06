@@ -11,7 +11,7 @@ public class NanobotTest {
 
     @Before
     public void setUp() throws Exception {
-        bot = new Nanobot("Starship Trooper", 15, 4);
+        bot = new Nanobot(15, 4);
         germ = new Germ("Damasio", 10, 6);
         person = new Person("Geralidine", 60);
     }

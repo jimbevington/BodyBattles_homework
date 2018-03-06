@@ -1,11 +1,9 @@
 public abstract class Combatant {
 
     private int attackPower;
-    private String name;
     private int strength;
 
-    public Combatant(String name, int strength, int attackPower) {
-        this.name = name;
+    public Combatant(int strength, int attackPower) {
         this.strength = strength;
         this.attackPower = attackPower;
     }
