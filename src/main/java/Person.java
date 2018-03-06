@@ -20,4 +20,12 @@ public class Person {
     public int bodyCount() {
         return this.body.size();
     }
+
+    public void catchDisease(Germ germ) {
+        this.body.add(germ);
+    }
+
+    public ArrayList<Combatant> getBody() {
+        return body;
+    }
 }

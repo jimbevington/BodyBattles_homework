@@ -24,10 +24,12 @@ public class PersonTest {
 //                disperse medicine
 
     private Person person;
+    private Germ germ;
 
     @Before
     public void setUp() throws Exception {
         person = new Person("Iain", 100);
+        germ = new Germ("Basilskin", 45, 3);
     }
 
     @Test
@@ -38,5 +40,12 @@ public class PersonTest {
     @Test
     public void hasEmptyBody(){
         assertEquals(0, person.bodyCount());
+    }
+
+    @Test
+    public void canCatchADisease() {
+        person.catchDisease(germ);
+        assertEquals(1, person.bodyCount());
+        assert(person.getBody().get(0) instanceof Germ);
     }
 }
