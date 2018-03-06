@@ -60,10 +60,11 @@ public class PersonTest {
         assertEquals(1, person.getImmunities().size());
     }
 
-//    @Test
-//    public void canBeImmune() {
-//        person.catchDisease(germ2);
-////        check health hasn't been affected
-//        assertEquals(100, person.getHealth());
-//    }
+    @Test
+    public void canBeImmune() {
+        person.becomeImmune("Jellyface");
+        person.catchDisease(germ2);
+//        check health hasn't been affected
+        assertEquals(100, person.getHealth());
+    }
 }

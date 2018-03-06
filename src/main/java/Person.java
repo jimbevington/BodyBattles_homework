@@ -26,10 +26,13 @@ public class Person {
     }
 
     public void catchDisease(Germ germ) {
+//        only carry out if the germ name ISN'T in immunities
+        if (!immunities.contains(germ.getName())) {
 //        add a germ to the body
-        this.body.add(germ);
+            this.body.add(germ);
 //        dock health by the germs strength
-        this.health -= germ.getStrength();
+            this.health -= germ.getStrength();
+        }
     }
 
     public ArrayList<Combatant> getBody() {
