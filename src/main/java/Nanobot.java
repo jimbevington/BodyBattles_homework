@@ -1,12 +1,7 @@
-public class Nanobot {
+public class Nanobot extends Combatant{
 
-    private int strength;
-
-    public Nanobot(int strength) {
-        this.strength = strength;
+    public Nanobot(String name, int strength) {
+        super(name, strength);
     }
 
-    public int getStrength() {
-        return strength;
-    }
 }

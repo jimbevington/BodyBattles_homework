@@ -12,18 +12,10 @@ public class GermTest {
         germ = new Germ("Gary", 12);
     }
 
-    @Test
-    public void canGetDeadliness() {
-        assertEquals(12, germ.getDeadliness());
-    }
 
-//    can multiply by a factor, which will increase deadliness
 
-    @Test
-    public void canMultiply() {
-        germ.multiply(3);
-        assertEquals(36, germ.getDeadliness());
-    }
+    //    can multiply by a factor, which will increase deadliness
+
 
 //    can attack a nanobot
 

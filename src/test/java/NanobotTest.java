@@ -6,20 +6,21 @@ import static org.junit.Assert.assertEquals;
 public class NanobotTest {
 
     private Nanobot bot;
+    private Germ germ;
 
     @Before
     public void setUp() throws Exception {
-        bot = new Nanobot(4);
+        bot = new Nanobot("Starship Trooper", 4);
+        germ = new Germ("Damasio", 10);
     }
-
-//    can get Strength
 
     @Test
     public void canGetStrength() {
         assertEquals(4, bot.getStrength());
     }
 
-//    can attack a Germ
+
+
 
 //    experiment with can deliver medicine
 }
