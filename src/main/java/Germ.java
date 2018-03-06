@@ -1,7 +1,7 @@
 public class Germ {
 
-    private final String name;
-    private final int deadliness;
+    private String name;
+    private int deadliness;
 
     public Germ(String name, int deadliness) {
         this.name = name;
@@ -10,5 +10,9 @@ public class Germ {
 
     public int getDeadliness() {
         return deadliness;
+    }
+
+    public void multiply(int factor) {
+        this.deadliness *= 3;
     }
 }
